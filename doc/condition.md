@@ -22,7 +22,7 @@ public class ConditionUseCase {
     /**
      * 显示的创建锁
      **/
-    private Lock      lock      = new ReentrantLock();
+    private Lock lock = new ReentrantLock();
 
     /**
      * 通过lock对象进行创建
